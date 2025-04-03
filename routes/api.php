@@ -10,7 +10,7 @@ Route::get('/user', function (Request $request) {
 Route::get('/author', function (Request $request) {
     return [
         'fullname' => 'Matt Dinniman',
-        'websites' => 'https://mattdinniman.com',
+        'website' => 'https://mattdinniman.com',
         'note' => 'Matt Dinniman rocks'
     ];
 })->middleware('auth:sanctum');
